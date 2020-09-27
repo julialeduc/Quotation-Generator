@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quotor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 class="mt-5 mb-5"><span class="highlight">Quote</span> Generator</h1>
+            <p>Search and find the best Quotes for every occasion with Quotor the Quote Generator. Whether for Social Media, Speeches or just for you to think and inspire.</p>
+        <div class="quote-box">
+            <p>Simply select a category and generate new quotes. You have quotes from different categories at your disposal.</p>
+            <form action="post" id="quote-form">
+                <div class="select">
+                    <label for="category">Select a category</label>
+                    <select id="category" class="form-control category-select" name="category" required>
+                        <option disabled value="null">Select category</option>
+                        <option selected  value="2">All</option>
+                        <option value="0">Motivational</option>
+                        <option value="1">Friendship</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <label for="amount">Select the amount of quotes</label>
+                    <select class="form-control" id="amount">
+                        <option disabled value = "null">Select amount</option>
+                        <option selected >1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="quote-button">
+                    <button type="button" class="btn btn-danger btn-generate">Get Quotes</button>
+                </div>
+                <div class="reset-button">
+                    <button type="button" class="btn btn-danger btn-reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div id="quote-content" class=" quote-box quote-content quote-content-box">
+            <img src="images/quotation-marks.png" class="quotation-marks">
+        </div>
+    </div>
+
+
+        <!-- Javascript --><script type="text/javascript" src="js/app.js" charset="utf-8"></script>
+    </body>
+</html>
