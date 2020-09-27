@@ -13,3 +13,5 @@ Requirements:
 5. Choose between 2 types of quote generators (accordingly, you'll need to different sets of sentences)
 6. Once the quotes are generated, have the program generate new quotes or quit the program
 
+Check out my quote generator:
+https://julialeduc.github.io/quotation-generator/
