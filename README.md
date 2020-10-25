@@ -14,4 +14,4 @@ Requirements:
 6. Once the quotes are generated, have the program generate new quotes or quit the program
 
 Check out my quote generator:
-https://julialeduc.github.io/quotation-generator/
+https://julialeduc.github.io/Quotation-Generator/
